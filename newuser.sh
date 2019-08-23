@@ -8,8 +8,6 @@ function ctrl_c() {
 trap ctrl_c INT
 
 # start editing your bash script here
-#!/bin/bash
-
 sudo useradd -m -p $(openssl passwd -1 kenobi) $1 -s /bin/bash
 echo .........
 sudo mkdir /home/$1/.ssh
