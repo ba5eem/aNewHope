@@ -16,6 +16,7 @@ sudo apt install docker-ce -y &&
 # adding docker to sudo group
 sudo usermod -aG docker ${USER} &&
 su - ${USER} &&
+exit &&
 
 # install docker - compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
