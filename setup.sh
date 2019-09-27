@@ -13,5 +13,6 @@ curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_docker.sh | b
 curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_dockercompose.sh | bash &&
 curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/add_docker_sudo.sh | bash &&
 curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_nvm.sh | bash &&
-
+curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_go.sh | bash &&
+echo 'setup complete'
 
