@@ -11,5 +11,5 @@ trap ctrl_c INT
 # adding docker to sudo group
 sudo usermod -aG docker ${USER} &&
 su - ${USER} &&
-exit
+exit &&
 id -nG
