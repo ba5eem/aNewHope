@@ -12,5 +12,6 @@ curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/newuser.sh | ba
 curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_docker.sh | bash &&
 curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_dockercompose.sh | bash &&
 curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/add_docker_sudo.sh | bash &&
+curl -s https://raw.githubusercontent.com/ba5eem/aNewBash/master/i_nvm.sh | bash &&
 
 
