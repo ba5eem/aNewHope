@@ -8,8 +8,6 @@ function ctrl_c() {
 trap ctrl_c INT
 
 # start editing your bash script here
-# adding docker to sudo group
-sudo usermod -aG docker ${USER} &&
-su - ${USER} &&
-exit
-id -nG
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+source ~/.bashrc
+nvm install 8
