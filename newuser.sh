@@ -14,8 +14,8 @@ sudo mkdir /home/$1/.ssh
 sudo touch /home/$1/.ssh/authorized_keys
 sudo chown -R $1:$1 /home/$1/.ssh
 sudo usermod -aG sudo $1
-sudo chage -d 0 $1
+#sudo chage -d 0 $1
 echo Username is: $1
 echo User created your default password is: $2
-echo you will be required to change the password on first login
+#echo you will be required to change the password on first login
 echo script complete - Aloha!
