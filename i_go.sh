@@ -16,3 +16,4 @@ echo 'export GOPATH=$HOME/work' >> ~/.profile &&
 echo 'PATH=$PATH:/usr/local/go/bin:$GOPATH/bin' >> ~/.profile &&
 source ~/.profile &&
 rm go1.10.3.linux-amd64.tar.gz &&
+echo 'go: success'

@@ -18,4 +18,4 @@ sudo usermod -aG sudo $1
 echo Username is: $1
 echo User created your default password is: $2
 #echo you will be required to change the password on first login
-echo script complete - Aloha!
+echo 'user created: success'
