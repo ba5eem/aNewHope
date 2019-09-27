@@ -10,6 +10,4 @@ trap ctrl_c INT
 # start editing your bash script here
 # adding docker to sudo group
 sudo usermod -aG docker ${USER} &&
-su - ${USER} &&
-exit &&
 id -nG
