@@ -39,7 +39,7 @@ read -p "Does the script look correct? [y|n]" answer
     else
       rm firewall.sh
       echo lets start over again...
-      goodbye
+      echo goodbye
       exit
     fi
 
