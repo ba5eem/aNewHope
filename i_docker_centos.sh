@@ -9,7 +9,7 @@ trap ctrl_c INT
 
 NAME=${@?Error: no arguments given
 please enter server ip as first argument:
-bash install_docker.sh 138.197.204.210}
+bash install_docker.sh 138.001.100.001}
 
 echo '#!/bin/bash
 yum check-update
